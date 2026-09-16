@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="machinestyle.css">
+</head>
+<body>
+
+    <h1>Weather Dashboard</h1>
+
+    <button id="themeToggle">☀️ Light Mode</button>
+
+    <form id="weatherForm">
+        <input type="text" id="city" placeholder="Enter your city name">
+        <button type="submit">Search</button>
+    </form>
+
+    <div id="loading">
+        Loading...
+    </div>
+
+    <div id="error"></div>
+
+    <div id="currentWeather">
+        <h3>Current Weather</h3>
+
+        <button id="addFavorite">
+            Add to Favorites
+        </button>
+    </div>
+
+    <div id="forecast">
+        <h3>5-Day Forecast</h3>
+    </div>
+
+    <div id="favorites">
+        <h3>Favorites</h3>
+    </div>
+
+    <script src="machinestyle.js"></script>
+
+</body>
+</html>
